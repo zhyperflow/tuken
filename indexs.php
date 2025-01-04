@@ -1,5 +1,5 @@
 <?php
-include_once __FILE__ . 'Readme.txt';
+include 'Readme.txt';
 /**
  * @package    Joomla.Site
  *
